@@ -1,0 +1,13 @@
+http://localhost:8117/swagger-ui/index.html
+
+http://localhost:8117/v3/api-docs
+To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+
+http://localhost:8117/actuator/info
+
+POST: http://localhost:8117/api/question/ask
+request in body->raw:
+
+{
+  "question": "I am not available for meeting tomorrow",
+}
